@@ -13,3 +13,4 @@
 | Получение списка пользователей | \du                | SELECT rolname FROM pg_roles                                 |
 | Получение схем БД              | \dn                |                                                              |
 | Просмотр таблиц                | \dt (\dt+)         | SELECT * FROM pg_catalog.pg_tables                           |
+| Просмотр индексов              | \di                |                                                              |
